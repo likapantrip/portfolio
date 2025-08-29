@@ -1,0 +1,87 @@
+ul {
+  list-style: square;
+  margin: 0px;
+}
+
+a {
+  color: #331010;
+}
+
+body {
+  color: #331010;
+  font-family: sans-serif;
+  background: linear-gradient(135deg, rgba(255, 0, 0, 1), rgba(255, 255, 255, 1));
+}
+
+.main-setting {
+  display: flex;
+  justify-content: center;  
+  height: 100vh;
+}
+
+.main-box {
+  width: 480px;
+  overflow: scroll;
+  /* IE(Internet Explorer)・Microsoft Edgeへのスクロールバー非表示対応 */
+  -ms-overflow-style: none;
+  /* Firefoxへのスクロールバー非表示対応 */
+  scrollbar-width: none;
+}
+
+/* Google Chrome、Safariへのスクロールバー非表示対応 */
+.contents_box::-webkit-scrollbar{
+  display: none;
+}
+
+.header-box {
+  margin: 30px;
+}
+
+.header-content {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.object-box {
+  margin-top: 0px;
+  margin-bottom: 14px;
+  z-index: 1;
+  padding: 14px 10px;
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: rgba(0, 0, 0, 0.13) 0px 2px 8px;
+}
+
+.object-title {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.content {
+  font-size: 14px;
+}
+
+.object-link {
+  text-decoration: none;
+}
+
+.content-description {
+  font-size: 12px;
+}
+
+/* インデント */
+.indent1 {
+  padding-left: 1rem;
+}
+
+.indent2 {
+  padding-left: 2rem;
+}
+
+.indent3 {
+  padding-left: 3rem;
+}
+
+.indent4 {
+  padding-left: 4rem;
+}
