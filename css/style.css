@@ -45,7 +45,6 @@ body {
 .object-box {
   margin-top: 0px;
   margin-bottom: 14px;
-  z-index: 1;
   padding: 14px 10px;
   border-radius: 9px;
   background: rgba(255, 255, 255, 0.4);
@@ -84,4 +83,18 @@ body {
 
 .indent4 {
   padding-left: 4rem;
+}
+
+/* スマホ画面サイズの場合、main以外を非表示 */
+@media (max-width: 600px) {
+  body > main > div:not(.main-box),
+  body > main > :not(.main-box) {
+    display: none !important;
+  }
+  .main-box {
+    width: 90vw;
+    max-width: 90vw;
+    min-width: 0;
+    box-sizing: border-box;
+  }
 }
