@@ -66,11 +66,11 @@ body {
 .link-box {
   display: flex;
   justify-content: center;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
 }
 
 .link-object-box{
-  margin: 0px 15px 14px 15px;
+  margin: 0px 15px;
   padding: 14px 10px;
   border-radius: 28px;
   width: 100px;
