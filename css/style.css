@@ -18,6 +18,15 @@ body {
   justify-content: center;
   height: 100vh;
   overflow: scroll;
+  /* IE(Internet Explorer)・Microsoft Edgeへのスクロールバー非表示対応 */
+  -ms-overflow-style: none;
+  /* Firefoxへのスクロールバー非表示対応 */
+  scrollbar-width: none;
+}
+
+/* Google Chrome、Safariへのスクロールバー非表示対応 */
+.contents_box::-webkit-scrollbar{
+  display: none;
 }
 
 .main-box {
