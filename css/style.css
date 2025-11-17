@@ -23,7 +23,7 @@ td, th {
   overflow-wrap: break-word;
 }
 
-.main-setting {
+.setting {
   display: flex;
   justify-content: center;
   height: 100vh;
@@ -39,7 +39,7 @@ td, th {
   display: none;
 }
 
-.main-box {
+.layout-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -97,7 +97,7 @@ td, th {
   font-size: 12px;
 }
 
-.link-box {
+.footer-box {
   display: flex;
   justify-content: center;
   padding-bottom: 100px;
@@ -148,10 +148,6 @@ td, th {
 
 .indent3 {
   padding-left: 3rem;
-}
-
-.indent4 {
-  padding-left: 4rem;
 }
 
 /* スマホ画面サイズの場合、main以外を非表示 */

@@ -3,51 +3,27 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:description" content="公開可能な制作物などをまとめました">
+    <meta property="og:description" content="">
     <meta property="og:site_name" content="Portfolio｜りかぱん">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="css/style.css"/>
+    <title></title>
+    <link rel="stylesheet" href="../css/style.css"/>
   </head>
   <body>
-    <main class="main-setting">
-      <div class="main-box">
-        <div class="header-box">
-          <div class="header-content">Portfolio</div>
-        </div>
-
-        <!-- IT -->
-        <a target="_blank" href="it/category.html" class="object-link">
-          <div class="object-box">
-            <div class="object-title">IT</div>
-            <div class="content">
-              IT関連の記事やコンテンツ
-            </div>
-          </div>
-        </a>
-
-        <!-- Article -->
-        <a target="_blank" href="article/category.html" class="object-link">
-          <div class="object-box">
-            <div class="object-title">Article</div>
-            <div class="content">
-              企画・執筆した記事
-            </div>
-          </div>
-        </a>
-
-        <!-- リンク -->
-        <div class="link-box">
-          <!-- プロフィール -->
-          <a target="_blank" href="https://lit.link/LikapanTrip" class="object-link">
-            <div class="link-object-box">
-              <div class="content">
-                Profile
-              </div>
-            </div>
-          </a>
-        </div>
-
+    <div class="setting">
+      <div class="layout-wrapper">
+        <div class="header-box"></div>
+        <div class="main-box"></div>
+        <div class="footer-box"></div>
       </div>
-    </main>
+    </div>
+    <!-- id指定 -->
+    <div id="top"></div>
+
+    <!-- common -->
+    <script src="common/common-data.js"></script>
+    <script src="common/load-common.js"></script>
+
+    <!-- contents -->
+    <script src="common/load-top.js"></script>
   </body>
 </html>
