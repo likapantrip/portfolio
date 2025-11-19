@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const tr = document.createElement("tr");
     tr.innerHTML = `
       <td class="table-content">${item.id}</td>
-      <td><a class="table-content" target="_blank" href="${item.url}">${item.title}</a></td>
+      <td><a class="table-content" target="_blank" rel="noopener noreferrer" href="${item.url}">${item.title}</a></td>
       <td class="table-content">${item.category}</td>
       <td class="table-content">${item.createdDate}</td>
     `;

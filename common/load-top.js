@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
   sorted.forEach(link => {
     const html =`
-      <a target="_blank" href="${link.folderName}/category.html" class="object-link">
+      <a target="_blank" rel="noopener noreferrer" href="${link.folderName}/category.html" class="object-link">
         <div class="object-box">
           <div class="object-title">${link.type}</div>
           <div class="content">${link.description}</div>

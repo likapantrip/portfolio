@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
       contentLists = sortedContents.map(content => `
         <ul class="indent2">
           <li>
-            <a class="content" target="_blank" href=${content.url}>${content.title}</a>
+            <a class="content" target="_blank" rel="noopener noreferrer" href=${content.url}>${content.title}</a>
           </li>
           <div class="content-description">${content.description}</div>
         </ul>
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const contentHtml = sortedContents.map(content => `
           <ul class="indent3">
             <li>
-              <a class="content" target="_blank" href="${content.url}">${content.title}</a>
+              <a class="content" target="_blank" rel="noopener noreferrer" href="${content.url}">${content.title}</a>
             </li>
             <div class="content-description">${content.description}</div>
           </ul>
