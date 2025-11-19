@@ -1,3 +1,18 @@
+/* スマホ対応 */
+@media (max-width: 600px) {
+  .layout-wrapper {
+    width: 100%;
+    max-width: 480px;
+  }
+}
+
+/* 共通 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 ul {
   list-style: square;
   margin: 0px;
@@ -27,7 +42,7 @@ td, th {
   display: flex;
   justify-content: center;
   height: 100vh;
-  overflow: scroll;
+  overflow: auto;
   /* IE(Internet Explorer)・Microsoft Edgeへのスクロールバー非表示対応 */
   -ms-overflow-style: none;
   /* Firefoxへのスクロールバー非表示対応 */
@@ -44,6 +59,8 @@ td, th {
   flex-direction: column;
   justify-content: start;
   width: 480px;
+  margin: 0 auto;
+  padding: 0 12px;
 }
 
 .header-box {
@@ -70,6 +87,11 @@ td, th {
   box-shadow: rgba(0, 0, 0, 0.13) 0px 2px 8px;
 }
 
+.main-box {
+  width: 100%;
+  max-width: 100%;
+}
+
 .object-box {
   margin-top: 0px;
   margin-bottom: 14px;
@@ -77,6 +99,7 @@ td, th {
   border-radius: 9px;
   background: rgba(255, 255, 255, 0.4);
   box-shadow: rgba(0, 0, 0, 0.13) 0px 2px 8px;
+  width: 100%;
 }
 
 .object-title {
@@ -148,18 +171,4 @@ td, th {
 
 .indent3 {
   padding-left: 3rem;
-}
-
-/* スマホ画面サイズの場合、main以外を非表示 */
-@media (max-width: 600px) {
-  body > main > div:not(.main-box),
-  body > main > :not(.main-box) {
-    display: none !important;
-  }
-  .main-box {
-    width: 90vw;
-    max-width: 90vw;
-    min-width: 0;
-    box-sizing: border-box;
-  }
 }

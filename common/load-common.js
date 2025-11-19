@@ -17,8 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // head
   document.querySelector("title").textContent = `Portfolio - ${typeData.type}`;
-  document.querySelector('meta[property="og:description"]')
-          .setAttribute("content", typeData.pageDescription);
 
   // header
   const containerHeader = document.querySelector(".header-box");
@@ -71,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   sortedFooter.forEach(f => {
     const htmlFooter = `
-      <a href="${f.url}" target="${f.target}" class="object-link">
+      <a href="${f.url}" target="${f.target}" rel="noopener noreferrer" class="object-link">
         <div class="link-object-box">
           <div class="content">${f.buttonLabel}</div>
         </div>
