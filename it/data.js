@@ -206,4 +206,8 @@ window.contentData = [
   {"id":"176","title":"【CSS】Flexboxについて","description":"","url":"https://qiita.com/likapantrip/items/df67a04a32a24b0deed2","createdDate":"2025-12-02","category":"プログラミング言語","subCategory":"HTML/CSS","order":"9"},
   {"id":"177","title":"【CSS】CSSグリッドについて","description":"","url":"https://qiita.com/likapantrip/items/28bac2814c645ad21187","createdDate":"2025-12-03","category":"プログラミング言語","subCategory":"HTML/CSS","order":"10"},
   {"id":"178","title":"【HTML】ファビコンについて","description":"","url":"https://qiita.com/likapantrip/items/b92a3f5ba847e7331bc6","createdDate":"2025-12-08","category":"プログラミング言語","subCategory":"HTML/CSS","order":"6"},
-  {"id":"179","title":"【CSS】レスポンシブWebデザインについて","description":"","url":"https://qiita.com/likapantrip/items/27424fd59cc7134e64ec","createdDate":"2025-12-14","category":"プログラミング言語","subCategory":"HTML/CSS","order":"11"},]
+  {"id":"179","title":"【CSS】レスポンシブWebデザインについて","description":"","url":"https://qiita.com/likapantrip/items/27424fd59cc7134e64ec","createdDate":"2025-12-14","category":"プログラミング言語","subCategory":"HTML/CSS","order":"11"},
+  {"id":"180","title":"【Googleフォーム】Googleフォームの作成","description":"","url":"https://qiita.com/likapantrip/items/affa13adbec3ce83549e","createdDate":"2025-12-15","category":"コーディング補助","subCategory":"その他","order":"5"},
+  {"id":"181","title":"【Googleマップ】地図の表示方法","description":"","url":"https://qiita.com/likapantrip/items/31bb6f4758b1800548b4","createdDate":"2025-12-15","category":"コーディング補助","subCategory":"その他","order":"6"},
+  {"id":"182","title":"【X】投稿を表示する方法","description":"","url":"https://qiita.com/likapantrip/items/5e1755e41a75cb6ddcb2","createdDate":"2025-12-15","category":"コーディング補助","subCategory":"その他","order":"7"},
+  {"id":"183","title":"【YouTube】動画を表示する方法","description":"","url":"https://qiita.com/likapantrip/items/5e449f41f8e3500e8b30","createdDate":"2025-12-15","category":"コーディング補助","subCategory":"その他","order":"8"},]
