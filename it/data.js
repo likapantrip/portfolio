@@ -210,4 +210,7 @@ window.contentData = [
   {"id":"180","title":"【Googleフォーム】Googleフォームの作成","description":"","url":"https://qiita.com/likapantrip/items/affa13adbec3ce83549e","createdDate":"2025-12-15","category":"コーディング補助","subCategory":"その他","order":"5"},
   {"id":"181","title":"【Googleマップ】地図の表示方法","description":"","url":"https://qiita.com/likapantrip/items/31bb6f4758b1800548b4","createdDate":"2025-12-15","category":"コーディング補助","subCategory":"その他","order":"6"},
   {"id":"182","title":"【X】投稿を表示する方法","description":"","url":"https://qiita.com/likapantrip/items/5e1755e41a75cb6ddcb2","createdDate":"2025-12-15","category":"コーディング補助","subCategory":"その他","order":"7"},
-  {"id":"183","title":"【YouTube】動画を表示する方法","description":"","url":"https://qiita.com/likapantrip/items/5e449f41f8e3500e8b30","createdDate":"2025-12-15","category":"コーディング補助","subCategory":"その他","order":"8"},]
+  {"id":"183","title":"【YouTube】動画を表示する方法","description":"","url":"https://qiita.com/likapantrip/items/5e449f41f8e3500e8b30","createdDate":"2025-12-15","category":"コーディング補助","subCategory":"その他","order":"8"},
+  {"id":"184","title":"【JavaScript】演算子の優先順位について","description":"","url":"https://qiita.com/likapantrip/items/9bf75072785e566346b3","createdDate":"2025-12-17","category":"プログラミング言語","subCategory":"JavaScript","order":"5"},
+  {"id":"185","title":"【JavaScript】変数の命名ルールについて","description":"","url":"https://qiita.com/likapantrip/items/432d3b79409ed3b0879a","createdDate":"2025-12-20","category":"プログラミング言語","subCategory":"JavaScript","order":"6"},
+  {"id":"186","title":"【React】ブラウザ拡張機能が原因のHydration Errorの解消方法","description":"","url":"https://zenn.dev/headwaters/articles/70176fb43abc5d","createdDate":"2025-12-25","category":"プログラミング言語","subCategory":"React","order":"4"}]
