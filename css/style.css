@@ -1,0 +1,323 @@
+/* 共通 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: square;
+  margin: 0px;
+}
+
+a {
+  color: #331010;
+}
+
+body {
+  color: #331010;
+  font-family: sans-serif;
+  background: linear-gradient(135deg, rgba(255, 0, 0, 1), rgba(255, 255, 255, 1));
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-color: #808080;
+}
+
+td, th {
+  word-break: break-all;
+  overflow-wrap: break-word;
+}
+
+summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.setting {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow: auto;
+  /* IE(Internet Explorer)・Microsoft Edgeへのスクロールバー非表示対応 */
+  -ms-overflow-style: none;
+  /* Firefoxへのスクロールバー非表示対応 */
+  scrollbar-width: none;
+}
+
+/* Google Chrome、Safariへのスクロールバー非表示対応 */
+.contents_box::-webkit-scrollbar{
+  display: none;
+}
+
+.layout-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-15 {
+  font-size: 15px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-21 {
+  font-size: 21px;
+}
+
+/* プロフィール */
+.profile_space-10 {
+  height: 10px;
+}
+
+.profile_space-30{
+  height: 30px;
+}
+
+.profile_header-box {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile_share-box {
+  align-self: flex-end;
+  padding-right: 20px;
+}
+
+#profile_sharing {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #f4f4f4;
+}
+
+.profile_image-sharing {
+  width: 24px;
+  height: 24px;
+  margin: 3px;
+}
+
+.profile_sharing-qr-box {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  max-width: 480px;
+  width: 100%;
+  margin: 40px auto;
+  padding: 0 12px;
+  display: none;
+}
+
+#profile_sharing-qr {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  max-width:360px;
+  width: 100%;
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+#profile_sharing-qrcode {
+  max-width: 200px;
+  width: 100%;
+}
+
+#profile_sharing-qrcode-close {
+  margin: 15px;
+  max-width: 30px;
+  width: 100%;
+  max-height: 30px;
+  height: 100%;
+} 
+
+.profile_image-me {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.profile_title-me {
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.profile_main-box {
+  margin-bottom: 30px;
+}
+
+#profile_sns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.profile_sns-object-box{
+  width: calc(50% - 6px);
+  height: 110px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: rgba(0, 0, 0, 0.13) 0px 2px 8px;
+  text-decoration: none;
+}
+
+.profile_title {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  top: 10px;
+  padding-block: 3px;
+  padding-inline: 9px;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.profile_image-link {
+  max-width: calc(100% - 20px);
+  height: calc(100% - 20px);
+}
+
+.profile_content-box {
+  padding: 14px 10px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: rgba(0, 0, 0, 0.13) 0px 2px 8px;
+}
+
+.profile_content-title {
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.profile_footer-box {
+  padding-bottom: 100px;
+}
+
+/* ポートフォリオ */
+.portfolio_header-box {
+  margin: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio_header-content {
+  font-weight: 700;
+}
+
+.portfolio_header-button {
+  display: flex;
+  align-items: center;
+}
+
+.portfolio_header-link-object-box{
+  border-radius: 28px;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: rgba(0, 0, 0, 0.13) 0px 2px 8px;
+}
+
+.portfolio_main-box {
+  width: 100%;
+  max-width: 100%;
+}
+
+.portfolio_object-box {
+  margin-top: 0px;
+  margin-bottom: 14px;
+  padding: 14px 10px;
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: rgba(0, 0, 0, 0.13) 0px 2px 8px;
+  width: 100%;
+}
+
+.portfolio_object-title {
+  font-weight: 700;
+}
+
+.portfolio_content {
+  word-break:break-all;
+}
+
+.portfolio_object-link {
+  text-decoration: none;
+}
+
+.portfolio_footer-box {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.portfolio_footer-link-object-box{
+  margin: 0px 15px;
+  padding: 14px 10px;
+  border-radius: 28px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: rgba(0, 0, 0, 0.13) 0px 2px 8px;
+}
+
+/* テーブル */
+
+.table_column1 {
+  width: 35px;
+}
+
+.table_column2 {
+  width: calc(100% - (35px + 80px + 80px));
+}
+
+.table_column3 {
+  width: 80px;
+}
+
+.table_content {
+  text-decoration: none;
+}
+
+/* インデント */
+.indent1 {
+  padding-left: 1rem;
+}
+
+.indent2 {
+  padding-left: 2rem;
+}
+
+.indent3 {
+  padding-left: 3rem;
+}

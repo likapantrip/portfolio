@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="プロフィール｜りかぱん">
+    <meta property="og:site_name" content="プロフィール｜りかぱん">
+    <meta property="og:title" content="プロフィール｜りかぱん">
+    <meta property="og:description" content="プロフィール">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://likapantrip.github.io/profile/">
+    <meta property="og:image" content="https://likapantrip.github.io/profile/image/me.jpg">
+    <title></title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <div class="setting">
+      <div class="layout-wrapper">
+        <div class="profile_sharing-qr-box">
+          <div id="profile_sharing-qr">
+            <img id="profile_sharing-qrcode" src="image/qr.png" alt="QRコード">
+            <img id="profile_sharing-qrcode-close" src="https://img.icons8.com/ios/50/delete-sign--v1.png" alt="閉じる"/>
+          </div>
+        </div>
+        <div class="profile_header-box">
+          <div class="profile_share-box">
+            <div id="profile_sharing">
+              <img class="profile_image-sharing" src="image/share.svg" alt="シェア">
+            </div>
+          </div>
+          <img class="profile_image-me" src="image/me.jpg" alt="プロフィール画像">
+          <div id="profile_title-me"></div>
+        </div>
+        <div class="profile_main-box">
+          <div id="profile_sns"></div>
+          <div class="profile_space-30"></div>
+          <div id="profile_content"></div>
+          <div class="profile_space-30"></div>
+          <div id="profile_additional-content"></div>
+          <div class="profile_space-30"></div>
+          <div id="profile_update-date"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jsファイル -->
+    <script src="profile/profile-data.js"></script>
+    <script src="profile/load-profile.js"></script>
+  </body>
+</html>
