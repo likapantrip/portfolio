@@ -234,7 +234,8 @@ window.contentData = [
   {"id":"198","title":"Webアプリ開発入門｜データベース用語を図で整理する","description":"","url":"https://qiita.com/likapantrip/items/e5878294753b0cb7879b","createdDate":"2026-02-11","categoryId":"8"},
   {"id":"199","title":"【図解】FE / BE / サーバー構成を理解する","description":"","url":"https://qiita.com/likapantrip/items/aabe7dbe68648238fbef","createdDate":"2026-02-11","categoryId":"8"},
   {"id":"200","title":"Webアプリ・ネイティブアプリ・APIの関係図","description":"","url":"https://qiita.com/likapantrip/items/0411c671114d1efb297f","createdDate":"2026-02-11","categoryId":"8"},
-  {"id":"201","title":"デプロイからクラウドまで｜開発・運用で押さえる基礎用語","description":"","url":"https://qiita.com/likapantrip/items/c108cc99e9bdde0d0558","createdDate":"2026-02-11","categoryId":"8"}]
+  {"id":"201","title":"デプロイからクラウドまで｜開発・運用で押さえる基礎用語","description":"","url":"https://qiita.com/likapantrip/items/c108cc99e9bdde0d0558","createdDate":"2026-02-11","categoryId":"8"},
+  {"id":"202","title":"Semantic KernelとMicrosoft Agent Frameworkを図解比較：概念から実装まで","description":"","url":"https://zenn.dev/headwaters/articles/7d50a8dbc2097b","createdDate":"2026-02-18","categoryId":"7"}]
 
 window.contentSubCategory = [
   {"id": "1", "contentId": "1", "subCategoryId": "1", "order": "1"},
@@ -437,4 +438,5 @@ window.contentSubCategory = [
   {"id": "198", "contentId": "198", "subCategoryId": "1", "order": "9"},
   {"id": "199", "contentId": "199", "subCategoryId": "1", "order": "7"},
   {"id": "200", "contentId": "200", "subCategoryId": "1", "order": "10"},
-  {"id": "201", "contentId": "201", "subCategoryId": "1", "order": "11"}]
+  {"id": "201", "contentId": "201", "subCategoryId": "1", "order": "11"},
+  {"id": "202", "contentId": "202", "subCategoryId": "1", "order": "7"}]
