@@ -17,4 +17,4 @@ window.additionalProfileData = [
   {"id": "2", "title": "言語", "description": "日本語、英語(日常会話レベル)"}]
 
 window.updateData = [
-  {"id": "1", "title": "最終更新日", "description": "2026-02-18"}]
+  {"id": "1", "title": "最終更新日", "description": "2026-02-20"}]
