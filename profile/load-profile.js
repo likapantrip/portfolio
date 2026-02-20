@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // head
-  document.querySelector("title").textContent = `プロフィール｜りかぱん`;
+  document.querySelector("title").textContent = `ポートフォリオ（プロフィール）｜りかぱん`;
 
   // QRコード表示
   const shareBtn = document.getElementById("profile_sharing");
