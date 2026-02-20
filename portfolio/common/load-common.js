@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // head
   if (topId) {
-    document.querySelector("title").textContent = `ポートフォリオ`;
+    document.querySelector("title").textContent = `ポートフォリオ一覧｜りかぱん`;
   } else {
-    document.querySelector("title").textContent = `ポートフォリオ - ${typeData.type}`;
+    document.querySelector("title").textContent = `ポートフォリオ（${typeData.type}）｜りかぱん`;
   }
 
   // header
