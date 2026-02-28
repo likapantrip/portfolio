@@ -238,7 +238,8 @@ window.contentData = [
   {"id":"202","title":"Semantic KernelとMicrosoft Agent Frameworkを図解比較：概念から実装まで","description":"","url":"https://zenn.dev/headwaters/articles/7d50a8dbc2097b","createdDate":"2026-02-18","categoryId":"7"},
   {"id":"203","title":"Next.js × FastAPI でAPI分離型アプリを構築する手順書","description":"","url":"https://qiita.com/likapantrip/items/4c01bfa0afa6e93fc24c","createdDate":"2026-02-20","categoryId":"4"},
   {"id":"204","title":"Pythonの__init__.pyはなぜ必要なのか？importの安定化・API設計・pytestとの関係","description":"","url":"https://zenn.dev/headwaters/articles/b6573a66d5749b","createdDate":"2026-02-22","categoryId":"4"},
-  {"id":"205","title":"Next.jsレンダリング完全整理｜SSRとServer Componentは別物だった","description":"","url":"https://qiita.com/likapantrip/items/93c1a41455089065ff8c","createdDate":"2026-02-22","categoryId":"4"}]
+  {"id":"205","title":"Next.jsレンダリング完全整理｜SSRとServer Componentは別物だった","description":"","url":"https://qiita.com/likapantrip/items/93c1a41455089065ff8c","createdDate":"2026-02-22","categoryId":"4"},
+  {"id":"206","title":"初心者でも分かるPythonのasyncio入門：async/awaitを料理で理解する非同期まとめ","description":"","url":"https://zenn.dev/headwaters/articles/9e96d6360be2b8","createdDate":"2026-02-28","categoryId":"4"}]
 
 window.contentSubCategory = [
   {"id": "1", "contentId": "1", "subCategoryId": "1", "order": "1"},
@@ -446,4 +447,5 @@ window.contentSubCategory = [
   {"id": "203", "contentId": "203", "subCategoryId": "3", "order": "6"},
   {"id": "204", "contentId": "203", "subCategoryId": "7", "order": "1"},
   {"id": "205", "contentId": "204", "subCategoryId": "7", "order": "2"},
-  {"id": "206", "contentId": "205", "subCategoryId": "3", "order": "7"}]
+  {"id": "206", "contentId": "205", "subCategoryId": "3", "order": "7"},
+  {"id": "207", "contentId": "206", "subCategoryId": "7", "order": "3"}]
