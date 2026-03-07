@@ -1,5 +1,5 @@
 window.nameData = [
-  {"id": "1", "name": "りかぱん｜旅行放題な人生"}]
+  {"name": "りかぱん｜旅行放題な人生"}]
 
 window.snsData = [
   {"id": "1", "name": "ポートフォリオ", "snsLink": "portfolio/index.html", "imageLink": "image/portfolio.svg"},

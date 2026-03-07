@@ -20,15 +20,11 @@ document.addEventListener("DOMContentLoaded", () => {
   // profile_title-meに名前を表示
   const containerName = document.querySelector("#profile_title-me");
   
-  const filteredNameData = window.nameData.filter(
-    n => (n.id === "1")
-  );
-  filteredNameData.forEach(n => {
-    const htmlName = `
-      <div class="profile_title-me font-size-21">${n.name}</div>
-    `
-    containerName.insertAdjacentHTML("beforeend", htmlName);
-  });
+  const n = window.nameData[0];
+  const htmlName = `
+    <div class="profile_title-me font-size-21">${n.name}</div>
+  `
+  containerName.insertAdjacentHTML("beforeend", htmlName);
 
   // profile_snsにSNSリンクを表示
   const containerSns = document.querySelector("#profile_sns");
@@ -86,18 +82,13 @@ document.addEventListener("DOMContentLoaded", () => {
   // profile_update-date にデータを追加
   const containerUpdateDate = document.querySelector("#profile_update-date");
 
-  const filteredUpdateData = window.updateData.filter(
-    u => (u.title === "最終更新日")
-  );
-
-  filteredUpdateData.forEach(ud => {
-    const htmlUpdateDate = `
-      <div class="profile_content-box ">
-      <div class="profile_content-title font-size-18">${ud.title}</div>
-      <div class="font-size-12">${ud.updatedDate}</div>
-      </div>
-      <div class="profile_footer-box"></div>
-    `
-    containerUpdateDate.insertAdjacentHTML("beforeend", htmlUpdateDate);
-  });
+  const ud = window.updateData[0];
+  const htmlUpdateDate = `
+    <div class="profile_content-box ">
+    <div class="profile_content-title font-size-18">${ud.title}</div>
+    <div class="font-size-12">${ud.updatedDate}</div>
+    </div>
+    <div class="profile_footer-box"></div>
+  `
+  containerUpdateDate.insertAdjacentHTML("beforeend", htmlUpdateDate);
 });
