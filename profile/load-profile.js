@@ -87,14 +87,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const containerUpdateDate = document.querySelector("#profile_update-date");
 
   const filteredUpdateData = window.updateData.filter(
-    u => (u.id === "1")
+    u => (u.title === "最終更新日")
   );
 
   filteredUpdateData.forEach(ud => {
     const htmlUpdateDate = `
       <div class="profile_content-box ">
       <div class="profile_content-title font-size-18">${ud.title}</div>
-      <div class="font-size-12">${ud.description}</div>
+      <div class="font-size-12">${ud.updatedDate}</div>
       </div>
       <div class="profile_footer-box"></div>
     `
