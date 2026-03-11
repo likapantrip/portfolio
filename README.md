@@ -50,13 +50,17 @@ https://likapantrip.github.io/portfolio/
 
 ## 更新ルール
 ### 機能変更
-1. featureブランチを作成
+1. ブランチを作成
+    - feature/xxx
 1. 動作確認後、mainへマージ
 
 ### ポートフォリオ追加
-1. portfolioブランチを作成
+1. ブランチを作成
+    - portfolio/it/yyyy-mm-dd
+    - portfolio/writing/yyyy-mm-dd
 1. 動作確認後、mainへマージ
 
 ### プロフィール更新
-1. profileブランチを作成
+1. ブランチを作成
+    - profile/xxx
 1. 動作確認後、mainへマージ
