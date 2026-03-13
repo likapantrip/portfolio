@@ -1,14 +1,14 @@
 window.categoryData = [
-  {"categoryId": "1", "categoryName": "アプリケーション", "classificationId": "1"},
-  {"categoryId": "2", "categoryName": "環境設定", "classificationId": "2"},
-  {"categoryId": "3", "categoryName": "開発ツール/補助", "classificationId": "2"},
-  {"categoryId": "4", "categoryName": "プログラミング言語", "classificationId": "2"},
-  {"categoryId": "5", "categoryName": "DB", "classificationId": "2"},
-  {"categoryId": "6", "categoryName": "サーバー・クラウド", "classificationId": "2"},
-  {"categoryId": "7", "categoryName": "AI", "classificationId": "1"},
-  {"categoryId": "8", "categoryName": "Web概念/開発前知識", "classificationId": "1"},
-  {"categoryId": "9", "categoryName": "Webサービス活用", "classificationId": "1"},
-  {"categoryId": "10", "categoryName": "その他", "classificationId": "1"}]
+  {"categoryId": "1", "categoryName": "アプリケーション", "classificationId": "1", "order": "DESC"},
+  {"categoryId": "2", "categoryName": "環境設定", "classificationId": "2", "order": "ASC"},
+  {"categoryId": "3", "categoryName": "開発ツール/補助", "classificationId": "2", "order": "ASC"},
+  {"categoryId": "4", "categoryName": "プログラミング言語", "classificationId": "2", "order": "ASC"},
+  {"categoryId": "5", "categoryName": "DB", "classificationId": "2", "order": "ASC"},
+  {"categoryId": "6", "categoryName": "サーバー・クラウド", "classificationId": "2", "order": "ASC"},
+  {"categoryId": "7", "categoryName": "AI", "classificationId": "1", "order": "ASC"},
+  {"categoryId": "8", "categoryName": "Web概念/開発前知識", "classificationId": "1", "order": "ASC"},
+  {"categoryId": "9", "categoryName": "Webサービス活用", "classificationId": "1", "order": "ASC"},
+  {"categoryId": "10", "categoryName": "その他", "classificationId": "1", "order": "ASC"}]
 
 window.subCategoryData = [
   {"categoryId": "2", "subCategoryId": "1", "subCategory": "Mac"},

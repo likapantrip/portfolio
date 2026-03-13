@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // relation取得関数
   const getRelations = ({ categoryId, subCategoryId = null }) => {
+    const category = categoryData.find(c => Number(c.categoryId) === Number(categoryId));
+    const isDesc = category.order === "DESC";
     return contentSubCategory
       .filter(r => {
         const content = contentMap[Number(r.contentId)];
@@ -26,7 +28,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
         return isCategoryMatch && isSubCategoryMatch;
       })
-      .sort((a, b) => Number(a.order) - Number(b.order));
+      .sort((a, b) => {
+        return isDesc
+          ? Number(b.order) - Number(a.order)
+          : Number(a.order) - Number(b.order);
+      });
   };
 
   // relationをcontentへ変換
