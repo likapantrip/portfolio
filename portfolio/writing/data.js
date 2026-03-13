@@ -1,9 +1,9 @@
 window.categoryData = [
-  {"categoryId": "1", "categoryName": "旅行", "classificationId": "1"},
-  {"categoryId": "2", "categoryName": "アニメ/マンガ", "classificationId": "1"},
-  {"categoryId": "3", "categoryName": "インタビュー", "classificationId": "1"},
-  {"categoryId": "4", "categoryName": "学習/資格取得", "classificationId": "1"},
-  {"categoryId": "5", "categoryName": "その他", "classificationId": "1"}]
+  {"categoryId": "1", "categoryName": "旅行", "classificationId": "1", "order": "DESC"},
+  {"categoryId": "2", "categoryName": "アニメ/マンガ", "classificationId": "1", "order": "DESC"},
+  {"categoryId": "3", "categoryName": "インタビュー", "classificationId": "1", "order": "DESC"},
+  {"categoryId": "4", "categoryName": "学習/資格取得", "classificationId": "1", "order": "DESC"},
+  {"categoryId": "5", "categoryName": "その他", "classificationId": "1", "order": "DESC"}]
 
 window.subCategoryData = [
 ]
