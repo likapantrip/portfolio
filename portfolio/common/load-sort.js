@@ -28,10 +28,27 @@ document.addEventListener("DOMContentLoaded", () => {
     );
     const categoryName = category ? category.categoryName : "未分類";
 
+    // コンテンツに紐づくサブカテゴリを取得
+    const relations = window.contentSubCategory.filter(
+      r => Number(r.contentId) === Number(item.id)
+    );
+
+    // subCategoryIdで該当サブカテゴリを取得
+    const subCategory = window.subCategoryData.find(
+      s => category.categoryId === s.categoryId && item.categoryId === category.categoryId && relations.some(r => Number(r.subCategoryId) === Number(s.subCategoryId))
+    );
+    // サブカテゴリがない場合は「未分類」と表示。複数ある場合は最初の1件を表示
+    const subCategoryName = subCategory ? subCategory.subCategory : "未分類";
+
+    // 「アプリケーション＞提供終了アプリ」の場合、タイトル名の頭に「提供終了」を付与
+    const title = (categoryName === "アプリケーション" && subCategoryName === "提供終了アプリ")
+      ? `【提供終了】${item.title}`
+      : item.title;
+
     const tr = document.createElement("tr");
     tr.innerHTML = `
       <td class="table_content font-size-12">${item.id}</td>
-      <td><a class="table_content font-size-12" rel="noopener noreferrer" href="${item.url}">${item.title}</a></td>
+      <td><a class="table_content font-size-12" rel="noopener noreferrer" href="${item.url}">${title}</a></td>
       <td class="table_content font-size-12">${categoryName}</td>
       <td class="table_content font-size-12">${item.createdDate}</td>
     `;
