@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
   
   let typeData;
   if (itId) {
-    typeData = window.typeData.find(t => t.id === "1")
-  } else if (writingId) {
     typeData = window.typeData.find(t => t.id === "2")
+  } else if (writingId) {
+    typeData = window.typeData.find(t => t.id === "1")
   } else if (topId) {
     typeData = window.typeData.find(t => t.id === "3")
   } else {

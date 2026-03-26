@@ -62,5 +62,5 @@ https://likapantrip.github.io/portfolio/
 
 ### プロフィール更新
 1. ブランチを作成
-    - profile/xxx
+    - profile/yyyy-mm-dd
 1. 動作確認後、mainへマージ

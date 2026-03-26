@@ -1,6 +1,6 @@
 window.typeData = [
-  {"id": "1", "type": "IT", "folderName": "it", "description": "IT関連の記事やコンテンツ", "pageDescription": "IT関連の記事やコンテンツ"},
-  {"id": "2", "type": "Writing", "folderName": "writing", "description": "企画・執筆した記事", "pageDescription": "企画・執筆した記事をまとめました"},
+  {"id": "1", "type": "Writing", "folderName": "writing", "description": "企画・執筆した記事", "pageDescription": "企画・執筆した記事をまとめました"},
+  {"id": "2", "type": "IT", "folderName": "it", "description": "IT関連の記事やコンテンツ", "pageDescription": "IT関連の記事やコンテンツ"},
   {"id": "3", "type": "Portfolio", "folderName": "portfolio", "description": "", "pageDescription": "公開可能な制作物などをまとめました"}]
 
 window.headerData = [
