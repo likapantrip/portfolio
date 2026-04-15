@@ -244,7 +244,8 @@ window.contentData = [
   {"id":"205","title":"Next.jsレンダリング完全整理｜SSRとServer Componentは別物だった","description":"","url":"https://qiita.com/likapantrip/items/93c1a41455089065ff8c","createdDate":"2026-02-22","categoryId":"4"},
   {"id":"206","title":"初心者でも分かるPythonのasyncio入門：async/awaitを料理で理解する非同期まとめ","description":"","url":"https://zenn.dev/headwaters/articles/9e96d6360be2b8","createdDate":"2026-02-28","categoryId":"4"},
   {"id":"207","title":"何が違うのか？AIモデル vs AIエージェント vs AI","description":"","url":"https://zenn.dev/headwaters/articles/9f1af21ea52458","createdDate":"2026-03-07","categoryId":"7"},
-  {"id":"208","title":"実は勘違いしやすいAzure用語・概念をまとめて整理（図解あり）","description":"","url":"https://zenn.dev/headwaters/articles/ce28dcbbbc7f43","createdDate":"2026-03-11","categoryId":"8"}]
+  {"id":"208","title":"実は勘違いしやすいAzure用語・概念をまとめて整理（図解あり）","description":"","url":"https://zenn.dev/headwaters/articles/ce28dcbbbc7f43","createdDate":"2026-03-11","categoryId":"8"},
+  {"id":"209","title":"Base64エンコードとは何か？実務での使いどころと注意点を整理","description":"","url":"https://zenn.dev/headwaters/articles/7984da4a814d38","createdDate":"2026-04-15","categoryId":"4"}]
 
 window.contentSubCategory = [
   {"id": "1", "contentId": "1", "subCategoryId": "3", "order": "1"},
@@ -455,4 +456,5 @@ window.contentSubCategory = [
   {"id": "206", "contentId": "205", "subCategoryId": "3", "order": "7"},
   {"id": "207", "contentId": "206", "subCategoryId": "7", "order": "3"},
   {"id": "208", "contentId": "207", "subCategoryId": "1", "order": "8"},
-  {"id": "209", "contentId": "208", "subCategoryId": "1", "order": "15"}]
+  {"id": "209", "contentId": "208", "subCategoryId": "1", "order": "15"},
+  {"id": "210", "contentId": "209", "subCategoryId": "7", "order": "4"}]
