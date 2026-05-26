@@ -14,8 +14,8 @@ window.profileData = [
   {"id": "4", "title": "ITコンサルタント / エンジニア", "description": "経歴\n　2018年 日本アイ・ビー・エム(株)に新卒入社\n　2024年 日本アイ・ビー・エム(株)を退社\n　2024年 テックキャンプ(181期)に入学・修了\n　2024年 スキルカレッジ(9期)に入学・修了\n　2025年 (株)ヘッドウォータースに入社"}]
 
 window.additionalProfileData = [
-  {"id": "1", "title": "保持資格等(取得順)", "description": "・普通自動車第一種運転免許(AT限定)\n・秘書検定2級\n・色彩検定2級\n・ITパスポート\n・日商簿記3級\n・学士号(主専攻: 経済学　副専攻: 経営学)\n・JSTQB(Foundation Level)"},
+  {"id": "1", "title": "保持資格等(取得順)", "description": "・普通自動車第一種運転免許(AT限定)\n・秘書検定2級\n・色彩検定2級\n・ITパスポート\n・日商簿記3級\n・学士号(主専攻: 経済学　副専攻: 経営学)\n・JSTQB(Foundation Level)\n・グリーンソフトウェア"},
   {"id": "2", "title": "言語", "description": "日本語、英語(日常会話レベル)"}]
 
 window.updateData = [
-  {"title": "最終更新日", "updatedDate": "2026-05-16"}]
+  {"title": "最終更新日", "updatedDate": "2026-05-26"}]
